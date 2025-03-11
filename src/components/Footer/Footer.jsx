@@ -1,6 +1,6 @@
 import Logo from "../Logo/Logo";
 import MainMenu from "../MainMenu/MainMenu";
-import styles from "./footer.module.css";
+import styles from "./Footer.module.css";
 
 const menuStyle = {
   fontSize: "1rem",
