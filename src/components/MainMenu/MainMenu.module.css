@@ -1,0 +1,27 @@
+.container {
+  display: none;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.container ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  gap: 2em;
+}
+
+.container li {
+  text-transform: uppercase;
+}
+
+.container p {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .container {
+    display: block;
+  }
+}

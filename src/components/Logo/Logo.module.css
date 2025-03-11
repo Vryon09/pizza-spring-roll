@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  width: fit-content;
+}
+
+.container img {
+  width: 80px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    justify-content: center;
+  }
+
+  .container img {
+    width: 100px;
+  }
+}

@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f7f7f7;
+}
+
+.innerContainer {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.innerContainer p {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.innerContainer p span {
+  color: hsl(0, 92%, 28%);
+}
+
+@media (min-width: 992px) {
+  .innerContainer p {
+    font-size: 3rem;
+  }
+}
