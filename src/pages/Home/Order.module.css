@@ -50,3 +50,6 @@
   font-weight: 600;
   cursor: pointer;
 }
+.form button:hover {
+  background-color: hsl(42, 66%, 65%);
+}
